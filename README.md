@@ -3,7 +3,7 @@
 ### Practica 1 
 ### Inti Andrés Samayoa
 ### 201504002
-#Manual de configuración
+# Manual de configuración
 
 ## Topología
 En la siguiente topología se muestran 4 hosts que está conectada con 2 switches distintos y estos se conectan entre si con un router que será el centro principal de la comunicación.
