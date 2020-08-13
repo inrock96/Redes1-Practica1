@@ -21,6 +21,8 @@ Las interfaces del router poseen las siguientes ips:
 | ----------- | ----------- |----------- | 
 | interfaz f0/0 | 192.168.12.0/24 | 192.168.12.254 |
 | interfaz f0/1 | 192.168.10.0/24 | 192.168.10.254 |
+
+
 ![fa0config](/images/topologia.jpg)
 ## Configuración
 ### Configuración de router
