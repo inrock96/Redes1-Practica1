@@ -11,8 +11,8 @@ En la siguiente topología se muestran 4 hosts que está conectada con 2 switche
 A continuación se muestra una tabla con los hosts y los ip configurados:
 | Host | Conectado a  | Dirección IP |
 | ----------- | ----------- |----------- | 
-| linux-1 | Switch1 | 192.168.12.30 |
-| PC2 | Switch1 | 192.168.12.15 |
+| linux-1 | Switch1 | 192.168.12.15 |
+| PC2 | Switch1 | 192.168.12.30 |
 | PC3 | Switch2 | 192.168.10.15 |
 | PC4 | Switch2 | 192.168.10.30 |
 
@@ -42,16 +42,20 @@ Ahora se muestra la configuración para la interfaz f0/1 del router R1.
 Para la configuración de ip de la máquina virtual
 1. Se va al panel de control
 2. Clic en network
-3. Configurar la dirección ip con el asistente
+3. Configurar la dirección ip con el asistente(192.168.12.30)
 ![fa0config](/images/linux_config.jpg)
 ### Configuración de VPCS
 Para la configuración de las VPCS desde el terminal de putty:
 1. Utilizar comando **ip**
 2. Ingresar dirección ip
 3. Ingresar máscara subred
-4. ingresar gateway
+4. ingresar gateway  
+
+ip 192.168.12.30 255.255.255.0 192.168.12.254
 ![fa0config](/images/pc2_config.jpg)
+ip 192.168.10.15 255.255.255.0 192.168.10.254
 ![fa0config](/images/pc3_config.jpg)
+ip 192.168.10.30 255.255.255.0 192.168.10.254
 ![fa0config](/images/pc4_config.jpg)
 ## Glosario
 | Término | Descripción |
